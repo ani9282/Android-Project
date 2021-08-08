@@ -1,0 +1,12 @@
+com.bitgriff.androidcalls
+drawable ic_action_search
+drawable ic_launcher
+id menu_settings
+id textViewDetectState
+layout activity_main
+menu activity_main
+string app_name
+string hello_world
+string menu_settings
+string title_activity_main
+style AppTheme

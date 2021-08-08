@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/tab_home"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Add Material"
+        android:icon="@drawable/tab_share"/>
+
+    <item
+        android:id="@+id/search"
+        android:title="Search Vehical"
+        android:icon="@drawable/tab_search"/>
+
+
+
+    <item
+        android:id="@+id/news"
+        android:title="Interested"
+        android:icon="@drawable/tab_news"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/tab_profile"/>
+
+
+
+
+</menu>

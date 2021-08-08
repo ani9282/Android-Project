@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/myRectangleView"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/rectangle"/>
+
+    <TextView
+        android:id="@+id/article_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAppearance="@android:style/TextAppearance"
+        android:padding="30dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text=" गॅझेट/राजपत्र साठी लागणारे आवश्यक कागदपत्रे "/>
+
+    <View
+        android:id="@+id/myRectangle"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rectangle"/>
+
+
+    <TextView
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading"
+        android:text="1) आधार कार्ड "
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="170dp"
+        android:text="2) मतदान कार्ड / पॅन कार्ड "
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="210dp"
+        android:text="3) शाळेचा दाखला / जन्माचा दाखला "
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="250dp"
+        android:text="4) विवाह नोंदणी प्रमाणपत्र / प्रतिज्ञापत्र "
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black" />
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="520dp"
+        android:text="पुढे जावा"
+        android:onClick="placeOrder"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_design"
+        />
+
+
+</RelativeLayout>

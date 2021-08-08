@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_apps_black"
+            android:title="@string/menu_orders" />
+
+        <item
+            android:id="@+id/nav_deliveredOrders"
+            android:icon="@drawable/ic_apps_black"
+            android:title="@string/delivered_orders" />
+
+        <item
+            android:id="@+id/nav_canceledOrders"
+            android:icon="@drawable/ic_apps_black"
+            android:title="@string/canceled_orders" />
+
+        <item
+            android:id="@+id/nav_todaysRate"
+            android:icon="@drawable/ic_apps_black"
+            android:title="@string/update_today_rate_text" />
+
+        <item
+            android:id="@+id/nav_updateContacts"
+            android:icon="@drawable/ic_apps_black"
+            android:title="@string/update_contacts" />
+
+        <item
+            android:id="@+id/nav_promoMessage"
+            android:icon="@drawable/ic_apps_black"
+            android:title="@string/promo_message" />
+    </group>
+
+
+</menu>

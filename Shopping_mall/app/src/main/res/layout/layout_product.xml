@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#b8c0ea"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+               android:layout_toRightOf="@+id/image5"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/image5"
+                android:layout_below="@+id/item_name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/image5"
+                android:layout_below="@+id/category_name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/discounted_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/image5"
+                android:layout_below="@+id/price"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/discounted_price"
+                android:layout_below="@+id/price"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add"
+                android:text="ADD"
+                android:layout_toRightOf="@+id/qty"
+                android:textSize="10sp"
+                android:layout_width="45dp"
+                android:layout_below="@+id/qty"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/decrementButton"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qty"
+                android:onClick="decrement"
+                android:layout_toLeftOf="@id/add"
+                android:text="-"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/quantity_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qty"
+                android:layout_toRightOf="@id/decrementButton"
+                android:padding="10dp"
+                android:inputType="text"
+                android:text="0"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/incrementButton"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qty"
+                android:layout_toRightOf="@id/add"
+                android:onClick="increment"
+                android:text="+"
+                android:textSize="12sp" />
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

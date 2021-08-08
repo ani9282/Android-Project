@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".User_registration">
+
+    <!--  <include layout="@layout/toolbar_login2" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:paddingBottom="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gym Management"
+                    android:textColor="#34353d"
+                    android:textSize="30.3dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40.3dp"
+                android:hint="Customer Name"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#b8b8b8"
+                android:background="#00000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginLeft="0dp"
+                android:ems="20"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="Customer Address"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#b8b8b8"
+                android:background="#00000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:inputType="text"
+                android:ems="20"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40.3dp"
+                android:hint="Customer Mobile"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#b8b8b8"
+                android:background="#00000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_marginLeft="0dp"
+                android:ems="20"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45.81dp"
+                android:hint="Date of birth"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#b8b8b8"
+                android:background="#00000000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/pobutton_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="select_date"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:gravity="left"
+                android:background="@drawable/button_hollow"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45.4dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <Spinner
+                        android:id="@+id/sp_car_name2"
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/custom_spinner"
+                        android:spinnerMode="dropdown"
+                        />
+
+                    <EditText
+                        android:layout_width="55dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#e0e0e0" />
+
+                </LinearLayout>-->
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="match_parent"
+                    android:layout_height="55.7dp"
+                    android:layout_margin="9dp"
+                    android:background="@drawable/sign_up"
+                    android:text="Sign up"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#b8b8b8"
+                    android:background="#00000000"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bootom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:background="@color/white"
+        app:menu="@menu/sender_home_page_menu"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

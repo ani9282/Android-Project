@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Hind Farm Fresh Chicken</string>
+    <string name="title_activity_login" translatable="false">Sign in</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_admin_home" translatable="false">AdminHomeActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="menu_tools" translatable="false">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send" translatable="false">Send</string>
+    <string name="internet_connection_message">Please Check Your Internet</string>
+    <string name="chicken_info">Our Chicken is free from artificial harmones. Our Chicken is delicious, healthy and safe for eating.</string>
+    <string name="delivery_info">Your time is valuable.So we are reaching to you with home delivery of delicious chicken(Now only for Karad area)</string>
+    <string name="daily_rate_chicken">Daily Rate :</string>
+    <string name="order_btn_text">For Order Click Here</string>
+    <string name="hindi_btn_text">हिंदी</string>
+    <string name="contact_txt">Contact :</string>
+    <string name="chand_patel_label">1) Chand Patel</string>
+    <string name="tabrej_patel_label">2) Tabrej Patel</string>
+    <string name="logo_text">Hind Farm Fresh Chicken</string>
+    <string name="sublogo_text">We Guarantee Our Quality</string>
+    <string name="enter_phone_number_text">Enter Phone Number</string>
+    <string name="enter_customer_name_text">Enter Customer Name</string>
+    <string name="enter_address_text">Enter Address</string>
+    <string name="delivery_boy_name_text">Delivery Boy Name</string>
+    <string name="how_much_kg_text">Order Quantity</string>
+    <string name="place_order_btn_text">Place Order</string>
+    <string name="admin_panel_text">Admin Panel</string>
+    <string name="enter_username_text">Enter Username</string>
+    <string name="enter_password_text">Enter Password</string>
+    <string name="login_btn_text">login</string>
+    <string name="menu_todays_rate">Today\'s Rate Master</string>
+    <string name="menu_orders">Orders</string>
+    <string name="menu_delivery_boys">Delivery Boys</string>
+    <string name="update_today_rate_text">Update Today\'s Rate</string>
+    <string name="update_btn_label">Update</string>
+    <string name="successful_text">Successful</string>
+    <string name="error_msg">Some Error</string>
+    <string name="add_delivey_boy_text">Add Delivey Boy</string>
+    <string name="existing_delivery_boys_text">Existing Delivery Boys</string>
+    <string name="save_btn_label">save</string>
+    <string name="phone_no_text">Phone No. :</string>
+    <string name="name_text">Name :</string>
+    <string name="address_text">Address :</string>
+    <string name="delivery_boy">Delivery Boy :</string>
+    <string name="quantity">Quantity :</string>
+    <string name="price">Price :</string>
+    <string name="payment_mode">Payment Mode :</string>
+    <string name="payment_status">Payment Status :</string>
+    <string name="order_status">Order Status :</string>
+    <string name="menu_communicate">Communicate</string>
+    <string name="share_body">Share app with others</string>
+    <string name="choose">Choose</string>
+    <string name="date">Delivery Date</string>
+    <string name="time">Delivery Time</string>
+    <string name="select_date">Delivery date</string>
+    <string name="select_time">Delivery time</string>
+    <string name="promotion">Promotion</string>
+    <string name="promotion1">Rs.10/KG discount for Karad region if</string>
+    <string name="promotion2">1) Delivery time in between 04:00 pm to 07:00 pm for Monday to Saturday</string>
+    <string name="promotion3">2) On Sunday Rs.10/Kg discount if delivery time in between 09:00 am to 12:00 pm</string>
+    <string name="proceed">proceed</string>
+    <string name="otp_msg">Please Enter OTP which recevied by your entered phone number</string>
+    <string name="choose_payment_method">Choose Payment Method</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="online">Online</string>
+    <string name="phone_number_error_msg">Enter Valid Number</string>
+    <string name="loading">loading</string>
+    <string name="order_id">Order ID</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="address">Address</string>
+    <string name="cost">Cost</string>
+    <string name="mode_of_payment">Mode Of Payment</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="check_internet_message">Please check internet connection!</string>
+</resources>

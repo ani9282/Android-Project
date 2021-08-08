@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Royalrex</string>
+    <string name="submit">Submit</string>
+    <string name="enter_adhar_card_number">Enter adhar card Number</string>
+    <string name="save_proceed"><![CDATA[SAVE & PROCEED]]></string>
+    <string name="parcel_date_time"><![CDATA[Parcel Date & Time]]></string>
+    <string-array name="numbers">
+        <item>Bike</item>
+        <item>Box Trucks</item>
+        <item>Cargo Vans</item>
+        <item>Jeep</item>
+        <item>Car</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="multicolor">
+        <font fgcolor="#92929d">By signing up, you confirm that you’ve read\nand accepted our</font>
+        <font fgcolor="#0062ff">User Notice</font>
+        <font fgcolor="#92929d">and</font>
+        <font fgcolor="#0062ff">Privacy Policy.</font>
+    </string>
+    <string name="policy">
+        <font fgcolor="#696974">I agree to Square’s </font>
+        <font fgcolor="#ff2e63">Cookie</font>
+        <font fgcolor="#696974">and</font>
+        <font fgcolor="#50b5ff">Privacy Policy.</font>
+    </string>
+    <string name="terms_and_condition">
+        <font fgcolor="#92929d">By clicking "Get Started - Free!"\nI agree to Square’s <u>Terms of Service</u></font>
+    </string>
+    <string name="sign_up_to_your_account">Sign Up to your account</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_name">Your Name</string>
+    <string name="none">None</string>
+    <string name="or">OR</string>
+    <string name="register">Register</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="already_have_an_square_account_log_in">Already have an Square account? Log in</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="can_t_login_sign_up_for_new_user">Can’t login? - Sign up for new user?</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="cuccu">CUCCU</string>
+    <string name="login">Login</string>
+    <string name="monitoring"><![CDATA[Monitoring your Sales Anytime.\nEasier &amp; Effective than Before]]></string>
+    <string name="log_in_to_your_account">Log In to Your Account</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="create_your_free_account">Create your Free Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="business_url">Business URL</string>
+    <string name="circle_com_username">circle.com/username</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="just_sign">Just sign in if you have an account in here.\nEnjoy our Website</string>
+    <string name="your_email_username">Your Email / Username</string>
+    <string name="welcome_to_the_professional_community">Welcome to the\nProfessional Community</string>
+    <string name="find_thousand">Find thousand opportunities and ready\nto level up your careers.</string>
+    <string name="search">Search</string>
+    <string name="get_started">Get Started</string>
+    <string name="apply_for">Apply for Million Chance\nto Get Dreams Job</string>
+    <string name="standard">Standard</string>
+    <string name="premium">Premium</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="your_password">Your Password</string>
+    <string name="create_password">Create Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="major">Major</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="get_started_free">Get Started - FREE</string>
+    <string name="let_s_sign_up">Let’s Sign up first for enter into\nSquare Website. Uh She Up!</string>
+    <string name="hello_my_name">Hello my name...</string>
+    <string name="tell_us_about_yourself">Tell us about yourself</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="sign_in">Sign In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mail_address">Mail Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="avian_rizky_prasetya">Avian Rizky Prasetya</string>
+    <string name="avianrizkyprasetya_mail_com">avianrizkyprasetya@mail.com</string>
+    <string name="password_txt">*************</string>
+    <string name="instant_login">Instant Login</string>
+    <string name="txt_continue">Continue</string>
+
+</resources>

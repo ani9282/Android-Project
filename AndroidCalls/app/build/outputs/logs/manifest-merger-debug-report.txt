@@ -1,0 +1,98 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\eb25dcd737e446dc8a0397d5bf8baa2b\volley-1.1.1\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:1-36:12
+	package
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\eb25dcd737e446dc8a0397d5bf8baa2b\volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\eb25dcd737e446dc8a0397d5bf8baa2b\volley-1.1.1\AndroidManifest.xml:7:5-43
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+	android:targetSdkVersion
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:15-44
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+		INJECTED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:9:2-78
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:9:19-75
+uses-permission#android.permission.INTERNET
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:10:5-83
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:13:22-74
+application
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:16:5-34:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\eb25dcd737e446dc8a0397d5bf8baa2b\volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\eb25dcd737e446dc8a0397d5bf8baa2b\volley-1.1.1\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:17:9-45
+	android:theme
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.bitgriff.androidcalls.MainActivity
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:20:9-27:20
+	android:label
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:25:27-74
+service#com.bitgriff.androidcalls.CallDetectService
+ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:29:9-33:19
+	android:enabled
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:30:13-46

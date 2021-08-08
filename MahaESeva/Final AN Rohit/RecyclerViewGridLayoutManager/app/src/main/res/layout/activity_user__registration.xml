@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ग्राहक नोंदणी फॉर्म "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ग्राहकाचे नाव "
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"/>
+
+
+
+
+    <TextView
+        android:id="@+id/ctype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="दाखल्याचा नाव "
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:textIsSelectable="true"
+                android:focusable="false"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:background="@drawable/input_design"/>
+
+
+
+                <TextView
+                    android:id="@+id/caddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="पत्ता "
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/black"/>
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:layout_margin="5dp"
+                    android:padding="15dp"
+                    android:background="@drawable/input_design"/>
+
+                <TextView
+                    android:id="@+id/cmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="मोबाइल नंबर "
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/black"/>
+
+                <EditText
+                    android:id="@+id/mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:layout_margin="5dp"
+                    android:padding="15dp"
+                    android:background="@drawable/input_design"/>
+
+
+    <Button
+        android:id="@+id/btnotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:text="ओटीपी पाठवा "
+        android:onClick="placeOrder"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_design"/>
+
+    <TextView
+        android:id="@+id/cotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ओटीपी टाका "
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"/>
+
+
+        <TextView
+            android:id="@+id/cprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="दाखल्याचे रक्कम "
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:background="@drawable/input_design"/>
+
+
+            <TextView
+                android:id="@+id/radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="कॅशची पद्धत "
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online Payment"
+                    android:checked="true"
+                    android:layout_marginLeft="@dimen/margin10"/>
+                <RadioButton android:id="@+id/cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash On Delivery"
+                    android:layout_marginLeft="30dp"
+                    android:checked="false" />
+            </RadioGroup>
+
+
+
+        <CheckBox
+            android:id="@+id/remember"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editTextPassword"
+            android:text="Remember me?"
+            android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="150dp"
+        android:text="नोंदणी करा "
+        android:onClick="placeOrder"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_design"/>
+
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

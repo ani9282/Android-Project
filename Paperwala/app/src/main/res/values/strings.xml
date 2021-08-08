@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Paperwala</string>
+
+
+    <string-array name="numbers">
+        <item>  Mobile</item>
+        <item> Laptop</item>
+    </string-array>
+
+
+</resources>

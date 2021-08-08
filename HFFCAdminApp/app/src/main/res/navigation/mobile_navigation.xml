@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_orders">
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.ecs.hffcadminapp.OrdersFragment"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/nav_deliveredOrders"
+        android:name="com.ecs.hffcadminapp.DeliveredOrdersFragment"
+        android:label="@string/delivered_orders"
+        tools:layout="@layout/fragment_delivered_orders" />
+
+    <fragment
+        android:id="@+id/nav_canceledOrders"
+        android:name="com.ecs.hffcadminapp.CanceledOrdersFragment"
+        android:label="@string/canceled_orders"
+        tools:layout="@layout/fragment_canceled_orders" />
+
+    <fragment
+        android:id="@+id/nav_todaysRate"
+        android:name="com.ecs.hffcadminapp.TodaysRateFragment"
+        android:label="@string/update_today_rate_text"
+        tools:layout="@layout/fragment_todays_rate" />
+
+    <fragment
+        android:id="@+id/nav_updateContacts"
+        android:name="com.ecs.hffcadminapp.UpdateContactsFragment"
+        android:label="@string/update_contacts"
+        tools:layout="@layout/fragment_update_contacts" />
+
+    <fragment
+        android:id="@+id/nav_promoMessage"
+        android:name="com.ecs.hffcadminapp.PromotionMessageFragment"
+        android:label="@string/promo_message"
+        tools:layout="@layout/fragment_promotion_message" />
+
+</navigation>

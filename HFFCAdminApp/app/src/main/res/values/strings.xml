@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">HFFC Admin App</string>
+    <string name="title_activity_admin_home">Admin Home</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">Admin Panel</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_orders">Pending Orders</string>
+    <string name="login">Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="fill_this">Fill This</string>
+    <string name="wrong_username">Wrong Username</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="check_internet_message">Check internet connection</string>
+    <string name="order_id">Order ID</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="view_order">view order</string>
+    <string name="loading">Loading</string>
+    <string name="address">Address</string>
+    <string name="quantity">Quantity</string>
+    <string name="cost">Cost</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="mode_of_payment">Mode Of Payment</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="order_status">Order Status</string>
+    <string name="delivered">Delivered</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="update_today_rate_text">Update Today\'s Rate</string>
+    <string name="update_btn_label">Update</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="update_contacts">Update Contacts</string>
+    <string name="promo_message">Promo Message</string>
+    <string name="delivered_orders">Delivered Orders</string>
+    <string name="canceled_orders">Canceled Orders</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="update_contact_one">Update Contact One</string>
+    <string name="update_contact_name">Update Contact Name</string>
+    <string name="update_contact_number">Update Contact Number</string>
+    <string name="update_contact_two">Update Contact Two</string>
+    <string name="update_promotion_message">Update Promotion Message</string>
+    <string name="existing_promotion_message">Existing Promotion Message</string>
+    <string name="logout">Logout</string>
+    <string name="order_delivered">Order Delivered</string>
+    <string name="retain_order">Retain Order</string>
+    <string name="delete_order">Delete Order</string>
+    <string name="success">Success</string>
+
+
+</resources>

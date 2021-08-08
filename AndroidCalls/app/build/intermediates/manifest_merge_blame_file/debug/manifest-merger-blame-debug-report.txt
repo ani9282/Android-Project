@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bitgriff.androidcalls"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+8        android:minSdkVersion="8"
+8-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:5-47
+9        android:targetSdkVersion="15" />
+9-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:6:15-44
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:8:5-75
+11-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:8:22-72
+12    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+12-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:9:2-78
+12-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:9:19-75
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:10:5-83
+13-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:11:5-79
+14-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:12:5-76
+15-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:12:22-73
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:13:5-76
+16-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:13:22-74
+17
+18    <application
+18-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:16:5-34:19
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:17:9-45
+21        android:label="@string/app_name"
+21-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:18:9-41
+22        android:theme="@style/AppTheme" >
+22-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:19:9-40
+23        <activity
+23-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:20:9-27:20
+24            android:name="com.bitgriff.androidcalls.MainActivity"
+24-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:21:13-41
+25            android:label="@string/title_activity_main" >
+25-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:22:13-56
+26            <intent-filter>
+26-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:23:13-26:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:24:17-69
+27-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:24:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:25:17-77
+29-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:25:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:29:9-33:19
+34            android:name="com.bitgriff.androidcalls.CallDetectService"
+34-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:30:13-46
+35            android:enabled="true"
+35-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:31:13-35
+36            android:exported="true" >
+36-->D:\ECS Project\My Android Project\AndroidCalls\app\src\main\AndroidManifest.xml:32:13-36
+37        </service>
+38    </application>
+39
+40</manifest>

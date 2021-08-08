@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecs.paperwala">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Generate_Pdf"></activity>
+        <activity android:name=".Generate_invoice" />
+        <activity android:name=".Sale_order" />
+        <activity android:name=".Retailer_balance" />
+        <activity android:name=".Return_transaction_detail" />
+        <activity android:name=".Add_transaction_detail" />
+        <activity android:name=".Return_transaction" />
+        <activity android:name=".Add_transaction" />
+        <activity
+            android:name=".Edit_retailer"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Order_product" />
+        <activity android:name=".Home_page" />
+        <activity android:name=".User_registration" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

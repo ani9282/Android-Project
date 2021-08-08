@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\ECS Project\\My Android Project\\AndroidCalls\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\ECS Project\\My Android Project\\AndroidCalls\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endColumns": "58",
+                        "endOffsets": "73"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "271",
+                        "endColumns": "57",
+                        "endOffsets": "324"
+                    }
+                },
+                {
+                    "source": "D:\\ECS Project\\My Android Project\\AndroidCalls\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19,70,124,176",
+                        "endColumns": "49,52,50,61",
+                        "endOffsets": "64,118,170,233"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,105,158,209",
+                        "endColumns": "49,52,50,61",
+                        "endOffsets": "100,153,204,266"
+                    }
+                }
+            ]
+        }
+    ]
+}

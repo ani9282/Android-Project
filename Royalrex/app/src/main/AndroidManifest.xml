@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecs.royalrex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Link_driving_Licence"></activity>
+        <activity android:name=".Link_pan_card" />
+        <activity android:name=".Link_Adhar_card" />
+        <activity
+            android:name=".Driver_search_available_vehical"
+            android:label="Your Available Vehical" />
+        <activity android:name=".Driver_details_activity" />
+        <activity android:name=".Driver_geting_order" />
+        <activity android:name=".Sender_detail_intrested" />
+        <activity android:name=".Sender_intrested_order" />
+        <activity android:name=".Driver_edit_profile" />
+        <activity android:name=".Sender_edit_profile" />
+        <activity android:name=".Driver_no_result_found" />
+        <activity android:name=".Driver_change_password" />
+        <activity android:name=".Driver_show_profile" />
+        <activity android:name=".Sender_change_password" />
+        <activity android:name=".Sender_show_profile" />
+        <activity android:name=".No_result_found" />
+        <activity android:name=".Search_vehical_process" />
+        <activity android:name=".Search_vehical_by_sender" />
+        <activity android:name=".Owner_driver_info" />
+        <activity android:name=".Driver_add_vehical" />
+        <activity android:name=".Driver_home_page" />
+        <activity android:name=".Sender_home_page" />
+        <activity android:name=".Track_sender_profile" />
+        <activity android:name=".Track_order_Detail" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Order_fragment" />
+        <activity android:name=".OrderDetailsActivity" />
+        <activity android:name=".Get_Location" />
+        <activity
+            android:name=".Addrress_proof"
+            android:label="Address Proof" />
+        <activity
+            android:name=".OTP_verification"
+            android:label="OTP Verification" />
+        <activity
+            android:name=".Driving_licence"
+            android:label="Driving Licence" />
+        <activity
+            android:name=".Adhar_card"
+            android:label="Adhar Card" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/common" />
+        <activity android:name=".Sender_Payment" />
+        <activity android:name=".Sender_Post" />
+        <activity
+            android:name=".Sender_profile"
+            android:theme="@style/common" />
+        <activity
+            android:name=".Driver_profile"
+            android:label="Driver | Homepage" />
+        <activity android:name=".KYC_Complete" />
+        <activity
+            android:name=".KYC_Verification"
+            android:label="Your Document" />
+        <activity
+            android:name=".User_registration"
+            android:label="Registration" />
+    </application>
+
+</manifest>

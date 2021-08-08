@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecs.mahaeseva">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ecs.mahaeseva.My_order"></activity>
+        <activity android:name="com.ecs.mahaeseva.Show_history" />
+        <activity android:name="com.ecs.mahaeseva.Online_Payment" />
+        <activity android:name="com.ecs.mahaeseva.Police_Verification" />
+        <activity android:name="com.ecs.mahaeseva.Udyog_adhar" />
+        <activity android:name="com.ecs.mahaeseva.Shop_Act" />
+        <activity android:name="com.ecs.mahaeseva.User_Registration" />
+        <activity
+            android:name="com.ecs.mahaeseva.Activity_Home"
+            android:label="@string/title_activity__home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ecs.mahaeseva.Gadget" />
+        <activity android:name="com.ecs.mahaeseva.Caste_Verification" />
+        <activity android:name="com.ecs.mahaeseva.Pan_Card" />
+        <activity android:name="com.ecs.mahaeseva.Adhar_Card" />
+        <activity android:name="com.ecs.mahaeseva.Female_Reservation_Certificate" />
+        <activity android:name="com.ecs.mahaeseva.Minority_Certificate" />
+        <activity android:name="com.ecs.mahaeseva.Farmer_Certificate" />
+        <activity android:name="com.ecs.mahaeseva.Ews_Certificate" />
+        <activity android:name="com.ecs.mahaeseva.Non_Criminal_Certificate" />
+        <activity android:name="com.ecs.mahaeseva.Caste_Certificate" />
+        <activity android:name="com.ecs.mahaeseva.domicile_certificate" />
+        <activity android:name="com.ecs.mahaeseva.income_certificate" />
+        <activity android:name="com.ecs.mahaeseva.MainActivity" />
+        <activity android:name="com.ecs.mahaeseva.Main2Activity" />
+        <activity android:name="com.ecs.mahaeseva.FirstPage"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="instamojo.orderauth.url"
+            android:value="http://www.ecssofttech.com/Abhi/access_token.php" />
+    </application>
+
+
+</manifest>
